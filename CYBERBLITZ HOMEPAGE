@@ -1,0 +1,138 @@
+HTML-------------------------------------------------------------------------------------------------------------------------------
+
+
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+
+            <nav>
+                <ul id="MenuItems heading1">
+                    <li><a href="index.html heading1">Home</a></li>
+                    <li><a href="product.html heading1">About Us</a></li>
+                    <li><a href="# heading1">Events</a></li>
+                    <li><a href="# heading1">Excome</a></li>
+                    <li><a href="account.html heading1">Gallery</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1 class="heading1">
+                    IGNITING PASSION FOR INSPIRING INNOVATION <br />
+
+                </h1>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn">Explore Now →</a>
+            </div>
+            <div class="col-2">
+                <img src="https://e7.pngegg.com/pngimages/200/811/png-clipart-technology-high-tech-building-resource-tecnologia-computer-network-electronics.png" alt="" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+CSS-------------------------------------------------------------------------------------------------------------------------------
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.heading1 {
+    color: white;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #ffffff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #020c2e;
+}
+
+.header {
+    background: radial-gradient(#17224a, #020c2e);
+    ,
+    #ffd6d6);
+}
+
+.header .row {
+    margin-top: 70px;
+}
